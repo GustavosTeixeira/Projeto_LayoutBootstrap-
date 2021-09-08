@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Projeto, Bootstrap, Layout">
+    <meta name="description" content="Layout feito com Bootstrap">
+    <meta name="author" content="Gustavo Silva Teixeira">
+    <meta htpp-equiv="refresh" content="60">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ac83c900ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <title>Project Bootstrap - Tech</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top bg">
+            <div class="container">
+         <a class="navbar-brand" href="#">LogSection</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars text-light" aria-hidden="true"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto float-right text-right">
+                    <li class="nav-item">
+                        <a class="nav-link ml-5" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5" href="#">Studio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5" href="#">Our people</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ml-5" href="#">Let's Talk</a>
+                    </li>
+
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <video controls="" autoplay="" muted="" loop="">
+            <source src="img/video.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="row pt-5">
+                <div class="home-text col-md-8 col-sm-12 mt-5">
+                    <h1>Criando WebSite com Bootstrap</h1>
+                    <p>Projeto proposto como desafio, PROA 2º Semestre 2021</p>
+                    <ul class="section-btn">
+                        <a href="#"><span data-hover="Saiba Mais">Saiba Mais</span></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay">
+
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div class="container py-5">
+            <div class="row py-5 my-5">
+                <div class="about-text text-center py-5 col-md-10 col-sm-12 mx-auto">
+                    <h2 class="pb-4">Bootstrap</h2>
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed perspiciatis hic, harum sunt minus
+                        nisi soluta tenetur suscipit architecto repellendus, nam facere non fuga neque voluptatum rem
+                        expedita. Amet, nostrum.</h1>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="project" class="pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="project-item">
+                        <a href="img/project-image1.jpg">
+                            <img src="img/project-image1.jpg" class="img-fluid">
+
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h1>Fluorescent Beutiful</h1>
+                                    <h3>Click Here</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <div class="project-item">
+                        <a href="img/project-image2.jpg">
+                            <img src="img/project-image2.jpg" class="img-fluid">
+
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h1>Fluorescent Beutiful</h1>
+                                    <h3>Click Here</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="project-item">
+                        <a href="img/project-image3.jpg">
+                            <img src="img/project-image3.jpg" class="img-fluid">
+
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h1>Fluorescent Beutiful</h1>
+                                    <h3>Click Here</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <div class="project-item">
+                        <a href="img/project-image4.jpg">
+                            <img src="img/project-image4.jpg" class="img-fluid">
+
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h1>Fluorescent Beutiful</h1>
+                                    <h3>Click Here</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="team" class="h-100">
+        <div class="container py-5">
+            <h1 class="text-center">Sobre Nós</h1>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide col-lg-3 col-md-6 col-12">
+                        <img src="img/team3.jpg" class="img-fluid">
+                        <div class="Text pt-3">
+                            <h3>Joe Willow <br><span>Web Developer</span></h3>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide col-lg-3 col-md-6 col-12">
+                        <img src="img/team5.jpg" class="img-fluid">
+                        <div class="Text pt-3">
+                            <h3>Joe Willow <br><span>Web Developer</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide col-lg-3 col-md-6 col-12">
+                        <img src="img/team4.jpg" class="img-fluid">
+                        <div class="Text pt-3">
+                            <h3>Joe Willow <br><span>Web Developer</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide col-lg-3 col-md-6 col-12">
+                        <img src="img/team3.jpg" class="img-fluid">
+                        <div class="Text pt-3">
+                            <h3>Joe Willow <br><span>Web Developer</span></h3>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide col-lg-3 col-md-6 col-12">
+                        <img src="img/team4.jpg" class="img-fluid">
+                        <div class="Text pt-3">
+                            <h3>Joe Willow <br><span>Web Developer</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <section id="contact" class="h-100 py5">
+            <h1 class="text-center py-5">Fale Conosco !</h1>
+            <div class="col-lg-7 col-md-10 col-11 mx-auto pb-5">
+                <form>
+                    <div class="form-row">
+
+                        <div class="form-group col-md-6">
+                            <input type="text" name="" class="form-control" placeholder="Name">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <input type="email" name="" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="" class="form-control" placeholder="Subject">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Mensagem" rows="5"></textarea>
+                    </div>
+                </form>
+                <ul class="section-btn text-center">
+                    <a href="#"><span data-hover="Enviar">Enviar</span></a>
+                </ul>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-5 col-sm-6">
+                    <h2>Digital Studio</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Id deserunt, quisquam omnis <br>
+                        placeat consequatur</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="footer-info">
+                        <h2>Keep in Touch</h2>
+                        <p> <a href="#">11 96424-6121</a></p>
+                        <p> <a href="#">info@company.com.br</a></p>
+                        <p> <a href="#">Our Location</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam sed, iure ratione commodi et
+                        quidem nobis veniam.</p>
+                    <ul class="social-icon list-unstyled d-flex">
+                        <li><a href="#"><i class="fab fa-facebook-f text-dark px-1"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter text-dark px-1"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram text-dark px-1"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin text-dark px-1"></i></a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-12 col-12">
+                    <div class="coptright-text">
+                        <p>&copy; Company Name - Todos os Direitos Reservados | Design: <a href="#">Tech Etc.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script>
+        $(window).scroll(function () {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50)
+        })
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
